@@ -1,72 +1,71 @@
 # Modelos de Machine Learning, Deep Learning e Inteligencia Artificial por Categorías de Casos de Uso
 
 ## [Predicción y Análisis de Datos](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md)
-- [Linear Regression]
-- [Random Forest](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md#random-forest)
-- [Gradient Boosting Machines (GBM)](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md#gradient-boosting-machines-gbm)
-- [XGBoost](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md#xgboost)
-- [Support Vector Machines (SVM)](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md#support-vector-machines-svm)
+- Linear Regression
+- Random Forest
+- [Gradient Boosting Machines (GBM)
+- XGBoost
+- Support Vector Machines (SVM)
 
 ## [Clasificación de Texto e Imágenes](Detalle_modelos/Clasificación%20de%20Texto%20e%20Imágenes.md)
-- [Logistic Regression](Detalle_modelos/Clasificación%20de%20Texto%20e%20Imágenes.md#logistic-regression)
-- [Convolutional Neural Networks (CNN)](Detalle_modelos/Clasificación%20de%20Texto%20e%20Imágenes.md#convolutional-neural-networks-cnn)
-- [Naive Bayes](Detalle_modelos/Clasificación%20de%20Texto%20e%20Imágenes.md#naive-bayes)
-- [Transformer Models (BERT, GPT)](Detalle_modelos/Clasificación%20de%20Texto%20e%20Imágenes.md#transformer-models-bert-gpt)
-- [Support Vector Machines (SVM)](Detalle_modelos/Clasificación%20de%20Texto%20e%20Imágenes.md#support-vector-machines-svm)
+- Logistic Regression
+- Convolutional Neural Networks (CNN)
+- Naive Bayes
+- Transformer Models (BERT, GPT)
+- Support Vector Machines (SVM)
 
 ## [Reducción de Dimensionalidad](Detalle_modelos/Reducción%20de%20Dimensionalidad.md)
-- [Principal Component Analysis (PCA)](Detalle_modelos/Reducción%20de%20Dimensionalidad.md#principal-component-analysis-pca)
-- [t-Distributed Stochastic Neighbor Embedding (t-SNE)](Detalle_modelos/Reducción%20de%20Dimensionalidad.md#t-distributed-stochastic-neighbor-embedding-t-sne)
-- [Linear Discriminant Analysis (LDA)](Detalle_modelos/Reducción%20de%20Dimensionalidad.md#linear-discriminant-analysis-lda)
-- [Autoencoders](Detalle_modelos/Reducción%20de%20Dimensionalidad.md#autoencoders)
-- [Independent Component Analysis (ICA)](Detalle_modelos/Reducción%20de%20Dimensionalidad.md#independent-component-analysis-ica)
+- Principal Component Analysis (PCA)
+- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+- Linear Discriminant Analysis (LDA)
+- Autoencoders
+- Independent Component Analysis (ICA)
 
 ## [Clustering y Segmentación](Detalle_modelos/Clustering%20y%20Segmentación.md)
-- [K-Means Clustering](Detalle_modelos/Clustering%20y%20Segmentación.md#k-means-clustering)
-- [Hierarchical Clustering](Detalle_modelos/Clustering%20y%20Segmentación.md#hierarchical-clustering)
-- [Gaussian Mixture Models (GMM)](Detalle_modelos/Clustering%20y%20Segmentación.md#gaussian-mixture-models-gmm)
-- [DBSCAN](Detalle_modelos/Clustering%20y%20Segmentación.md#dbscan)
-- [Mean Shift Clustering](Detalle_modelos/Clustering%20y%20Segmentación.md#mean-shift-clustering)
+- K-Means Clustering
+- Hierarchical Clustering
+- Gaussian Mixture Models (GMM)
+- DBSCAN
+- Mean Shift Clustering
 
 ## [Detección de Anomalías y Fraudes](Detalle_modelos/Detección%20de%20Anomalías%20y%20Fraudes.md)
-- [Isolation Forest](Detalle_modelos/Detección%20de%20Anomalías%20y%20Fraudes.md#isolation-forest)
-- [One-Class SVM](Detalle_modelos/Detección%20de%20Anomalías%20y%20Fraudes.md#one-class-svm)
-- [Autoencoders](Detalle_modelos/Detección%20de%20Anomalías%20y%20Fraudes.md#autoencoders)
-- [Gaussian Mixture Models (GMM)](Detalle_modelos/Detección%20de%20Anomalías%20y%20Fraudes.md#gaussian-mixture-models-gmm)
-- [Random Forest](Detalle_modelos/Detección%20de%20Anomalías%20y%20Fraudes.md#random-forest)
+- Isolation Forest
+- One-Class SVM
+- Autoencoders
+- Gaussian Mixture Models (GMM)
+- Random Forest
 
 ## [Procesamiento de Lenguaje Natural (NLP)](Detalle_modelos/Procesamiento%20de%20Lenguaje%20Natural%20(NLP).md)
-- [Transformer Models (BERT, GPT)](Detalle_modelos/Procesamiento%20de%20Lenguaje%20Natural%20(NLP).md#transformer-models-bert-gpt)
-- [Recurrent Neural Networks (RNN)](Detalle_modelos/Procesamiento%20de%20Lenguaje%20Natural%20(NLP).md#recurrent-neural-networks-rnn)
-- [Long Short-Term Memory (LSTM)](Detalle_modelos/Procesamiento%20de%20Lenguaje%20Natural%20(NLP).md#long-short-term-memory-lstm)
-- [Naive Bayes](Detalle_modelos/Procesamiento%20de%20Lenguaje%20Natural%20(NLP).md#naive-bayes)
-- [Word2Vec](Detalle_modelos/Procesamiento%20de%20Lenguaje%20Natural%20(NLP).md#word2vec)
-
+- Transformer Models (BERT, GPT)
+- Recurrent Neural Networks (RNN)
+- Long Short-Term Memory (LSTM)
+- Naive Bayes
+- Word2Vec
 ## [Sistemas de Recomendación](Detalle_modelos/Sistemas%20de%20Recomendación.md)
-- [Collaborative Filtering](Detalle_modelos/Sistemas%20de%20Recomendación.md#collaborative-filtering)
-- [Content-Based Filtering](Detalle_modelos/Sistemas%20de%20Recomendación.md#content-based-filtering)
-- [Matrix Factorization](Detalle_modelos/Sistemas%20de%20Recomendación.md#matrix-factorization)
-- [Neural Collaborative Filtering (NCF)](Detalle_modelos/Sistemas%20de%20Recomendación.md#neural-collaborative-filtering-ncf)
-- [Reinforcement Learning for Recommender Systems](Detalle_modelos/Sistemas%20de%20Recomendación.md#reinforcement-learning-for-recommender-systems)
+- Collaborative Filtering
+- Content-Based Filtering
+- Matrix Factorization)
+- Neural Collaborative Filtering (NCF)
+- Reinforcement Learning for Recommender Systems
 
 ## [Análisis de Series Temporales](Detalle_modelos/Análisis%20de%20Series%20Temporales.md)
-- [ARIMA](Detalle_modelos/Análisis%20de%20Series%20Temporales.md#arima)
-- [LSTM](Detalle_modelos/Análisis%20de%20Series%20Temporales.md#lstm)
-- [Prophet](Detalle_modelos/Análisis%20de%20Series%20Temporales.md#prophet)
-- [Recurrent Neural Networks (RNN)](Detalle_modelos/Análisis%20de%20Series%20Temporales.md#recurrent-neural-networks-rnn)
-- [Seasonal Decomposition of Time Series (STL)](Detalle_modelos/Análisis%20de%20Series%20Temporales.md#seasonal-decomposition-of-time-series-stl)
+- ARIMA
+- LSTM
+- Prophet
+- Recurrent Neural Networks (RNN)
+- Seasonal Decomposition of Time Series (STL)
 
 ## [Optimización y Búsqueda](Detalle_modelos/Optimización%20y%20Búsqueda.md)
-- [Genetic Algorithms](Detalle_modelos/Optimización%20y%20Búsqueda.md#genetic-algorithms)
-- [Particle Swarm Optimization](Detalle_modelos/Optimización%20y%20Búsqueda.md#particle-swarm-optimization)
-- [Simulated Annealing](Detalle_modelos/Optimización%20y%20Búsqueda.md#simulated-annealing)
-- [Bayesian Optimization](Detalle_modelos/Optimización%20y%20Búsqueda.md#bayesian-optimization)
-- [Grid Search](Detalle_modelos/Optimización%20y%20Búsqueda.md#grid-search)
+- Genetic Algorithms
+- Particle Swarm Optimization
+- Simulated Annealing
+- Bayesian Optimization
+- Grid Search
 
 ## [Visualización y Exploración de Datos](Detalle_modelos/Visualización%20y%20Exploración%20de%20Datos.md)
-- [Principal Component Analysis (PCA)](Detalle_modelos/Visualización%20y%20Exploración%20de%20Datos.md#principal-component-analysis-pca)
-- [t-Distributed Stochastic Neighbor Embedding (t-SNE)](Detalle_modelos/Visualización%20y%20Exploración%20de%20Datos.md#t-distributed-stochastic-neighbor-embedding-t-sne)
-- [Uniform Manifold Approximation and Projection (UMAP)](Detalle_modelos/Visualización%20y%20Exploración%20de%20Datos.md#uniform-manifold-approximation-and-projection-umap)
-- [Multidimensional Scaling (MDS)](Detalle_modelos/Visualización%20y%20Exploración%20de%20Datos.md#multidimensional-scaling-mds)
-- [Self-Organizing Maps (SOM)](Detalle_modelos/Visualización%20y%20Exploración%20de%20Datos.md#self-organizing-maps-som)
+- Principal Component Analysis (PCA)
+- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+- Uniform Manifold Approximation and Projection (UMAP)
+- Multidimensional Scaling (MDS)
+- Self-Organizing Maps (SOM)
 
