@@ -69,4 +69,3 @@
 - [Uniform Manifold Approximation and Projection (UMAP)](./Detalle_modelos/Visualización y Exploración de Datos.md#Uniform-Manifold-Approximation-and-Projection-UMAP)
 - [Multidimensional Scaling (MDS)](./Detalle_modelos/Visualización y Exploración de Datos.md#Multidimensional-Scaling-MDS)
 - [Self-Organizing Maps (SOM)](./Detalle_modelos/Visualización y Exploración de Datos.md#Self-Organizing-Maps-SOM)
-
