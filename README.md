@@ -1,6 +1,7 @@
 # Modelos de Machine Learning, Deep Learning e Inteligencia Artificial por Categorías de Casos de Uso
 
 ## [Predicción y Análisis de Datos](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md)
+### Predecir resultados futuros y analizar patrones en datos históricos, incluyendo regresiones y métodos de ensamble.
 - Linear Regression
 - Random Forest
 - Gradient Boosting Machines (GBM)
@@ -8,6 +9,7 @@
 - Support Vector Machines (SVM)
 
 ## [Clasificación de Texto e Imágenes](Detalle_modelos/Clasificación%20de%20Texto%20e%20Imágenes.md)
+### Clasificar y etiquetar automáticamente textos e imágenes usando regresiones logísticas hasta redes neuronales convolucionales y transformadores.
 - Logistic Regression
 - Convolutional Neural Networks (CNN)
 - Naive Bayes
