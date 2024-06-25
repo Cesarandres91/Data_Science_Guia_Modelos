@@ -1,0 +1,62 @@
+# Procesamiento de Lenguaje Natural (NLP)
+
+## Transformer Models (BERT, GPT)
+Modelos de aprendizaje profundo basados en la arquitectura Transformer, que son altamente efectivos para tareas de procesamiento de lenguaje natural (NLP) como la clasificación de texto, generación de texto y traducción automática.
+- **Librería**: `transformers`
+- **Función**: `transformers.BertForSequenceClassification`, `transformers.GPT2LMHeadModel`
+
+\```python
+from transformers import BertTokenizer, BertForSequenceClassification
+from transformers import Trainer, TrainingArguments
+
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+model = BertForSequenceClassification.from_pretrained('bert-base-uncased')
+
+inputs = tokenizer(X_train, return_tensors='pt', padding=True, truncation=True)
+labels = torch.tensor(y_train)
+
+training_args = TrainingArguments(output_dir='./results', num_train_epochs=3)
+trainer = Trainer(model=model, args=training_args, train_dataset=inputs, eval_dataset=inputs)
+trainer.train()
+\```
+
+## Recurrent Neural Networks (RNN)
+Un tipo de red neuronal diseñada para reconocer patrones en secuencias de datos. Es útil para tareas como el análisis de texto y series temporales.
+- **Librería**: `TensorFlow`, `Keras`, `PyTorch`
+- **Función**: `tf.keras.layers.SimpleRNN`, `torch.nn.RNN`
+
+\```python
+# Ejemplo con Keras
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import SimpleRNN, Dense
+
+model = Sequential([
+    SimpleRNN(50, input_shape=(timesteps, input_dim)),
+    Dense(1, activation='sigmoid')
+])
+
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test))
+\```
+
+## Long Short-Term Memory (LSTM)
+Una mejora de las RNN estándar que puede aprender dependencias a largo plazo. Son especialmente efectivas para tareas de procesamiento de secuencias como la predicción de texto y series temporales.
+- **Librería**: `TensorFlow`, `Keras`, `PyTorch`
+- **Función**: `tf.keras.layers.LSTM`, `torch.nn.LSTM`
+
+\```python
+# Ejemplo con Keras
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+
+model = Sequential([
+    LSTM(50, input_shape=(timesteps, input_dim)),
+    Dense(1, activation='sigmoid')
+])
+
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test))
+\```
+
+## Naive Bayes
+Un conjunto de algoritmos de clasificación basados en el teorema de Bayes, con la suposición de independencia entre
