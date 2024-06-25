@@ -5,7 +5,7 @@ Modelos de aprendizaje profundo basados en la arquitectura Transformer, que son 
 - **Librería**: `transformers`
 - **Función**: `transformers.BertForSequenceClassification`, `transformers.GPT2LMHeadModel`
 
-\```python
+```python
 from transformers import BertTokenizer, BertForSequenceClassification
 from transformers import Trainer, TrainingArguments
 
@@ -18,14 +18,14 @@ labels = torch.tensor(y_train)
 training_args = TrainingArguments(output_dir='./results', num_train_epochs=3)
 trainer = Trainer(model=model, args=training_args, train_dataset=inputs, eval_dataset=inputs)
 trainer.train()
-\```
+```
 
 ## Recurrent Neural Networks (RNN)
 Un tipo de red neuronal diseñada para reconocer patrones en secuencias de datos. Es útil para tareas como el análisis de texto y series temporales.
 - **Librería**: `TensorFlow`, `Keras`, `PyTorch`
 - **Función**: `tf.keras.layers.SimpleRNN`, `torch.nn.RNN`
 
-\```python
+```python
 # Ejemplo con Keras
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import SimpleRNN, Dense
@@ -37,14 +37,14 @@ model = Sequential([
 
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test))
-\```
+```
 
 ## Long Short-Term Memory (LSTM)
 Una mejora de las RNN estándar que puede aprender dependencias a largo plazo. Son especialmente efectivas para tareas de procesamiento de secuencias como la predicción de texto y series temporales.
 - **Librería**: `TensorFlow`, `Keras`, `PyTorch`
 - **Función**: `tf.keras.layers.LSTM`, `torch.nn.LSTM`
 
-\```python
+```python
 # Ejemplo con Keras
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
@@ -56,7 +56,31 @@ model = Sequential([
 
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test))
-\```
+```
 
 ## Naive Bayes
-Un conjunto de algoritmos de clasificación basados en el teorema de Bayes, con la suposición de independencia entre
+Un conjunto de algoritmos de clasificación basados en el teorema de Bayes, con la suposición de independencia entre las características. Es muy utilizado para tareas de clasificación de texto.
+- **Librería**: `scikit-learn`
+- **Función**: `sklearn.naive_bayes.MultinomialNB`, `sklearn.naive_bayes.GaussianNB`
+
+```python
+from sklearn.naive_bayes import MultinomialNB
+
+model = MultinomialNB()
+model.fit(X_train, y_train)
+predictions = model.predict(X_test)
+```
+
+## Word2Vec
+Un modelo de aprendizaje profundo utilizado para generar representaciones vectoriales de palabras, capturando relaciones semánticas y sintácticas entre palabras en un espacio continuo.
+- **Librería**: `gensim`
+- **Función**: `gensim.models.Word2Vec`
+
+```python
+from gensim.models import Word2Vec
+
+model = Word2Vec(sentences, vector_size=100, window=5, min_count=1, workers=4)
+word_vectors = model.wv
+vector = word_vectors['example']
+```
+
