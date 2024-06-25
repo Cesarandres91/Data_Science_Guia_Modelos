@@ -3,7 +3,7 @@
 ## [Predicción y Análisis de Datos](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md)
 - Linear Regression
 - Random Forest
-- [Gradient Boosting Machines (GBM)
+- Gradient Boosting Machines (GBM)
 - XGBoost
 - Support Vector Machines (SVM)
 
