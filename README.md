@@ -1,7 +1,7 @@
 # Modelos de Machine Learning, Deep Learning e Inteligencia Artificial por Categorías de Casos de Uso
 
 ## [Predicción y Análisis de Datos](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md)
-- [Linear Regression](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md#linear-regression)
+- [Linear Regression]
 - [Random Forest](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md#random-forest)
 - [Gradient Boosting Machines (GBM)](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md#gradient-boosting-machines-gbm)
 - [XGBoost](Detalle_modelos/Predicción%20y%20Análisis%20de%20Datos.md#xgboost)
