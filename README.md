@@ -79,3 +79,21 @@
 - Multidimensional Scaling (MDS)
 - Self-Organizing Maps (SOM)
 
+# Transformación de variables
+
+| **Nombre Transformación** | **Detalle** | **Modelos Habituales** | **Modelo (S: supervisado, N: no supervisado)** |
+|---------------------------|-------------|------------------------|------------------------------------------------|
+| Hash Encoding | Asigna a cada categoría un hash. Útil para manejar muchas categorías únicas. | Random Forest, Redes Neuronales, Isolation Forest, One-Class SVM | Supervisado, No supervisado |
+| Word2Vec | Técnica de procesamiento de lenguaje natural que crea representaciones densas de palabras. Útil en modelos de NLP y redes neuronales. | Modelos de Procesamiento de Lenguaje Natural (NLP), Redes Neuronales, Autoencoders | Supervisado, No supervisado |
+| Clustering (K-Means, DBSCAN) | Métodos como K-Means y DBSCAN son usados en análisis exploratorio y detección de anomalías. | Clustering, Análisis Exploratorio, Detección de Anomalías | No supervisado |
+| One-Hot Encoding | Convierte cada categoría en una nueva columna binaria (0 o 1). Utilizado en modelos que pueden manejar alta dimensionalidad. | Random Forest, Redes Neuronales, Logistic Regression, Support Vector Machines (SVM), Gradient Boosting Machines (GBM), XGBoost | Supervisado |
+| Label Encoding | Asigna un número entero único a cada categoría. Útil cuando las categorías tienen un orden natural. | Árboles de Decisión, Random Forest, Gradient Boosting Machines (GBM), XGBoost | Supervisado |
+| Target Encoding | Asigna a cada categoría el promedio de la variable objetivo correspondiente a esa categoría. Captura la relación con la variable objetivo. | Regresión, Árboles de Decisión, Gradient Boosting Machines (GBM), XGBoost | Supervisado |
+| Frequency Encoding | Asigna a cada categoría la frecuencia con la que aparece en el conjunto de datos. Útil cuando la frecuencia es indicativa. | Random Forest, Regresión, Gradient Boosting Machines (GBM), XGBoost | Supervisado |
+| Ordinal Encoding | Asigna números enteros a las categorías en un orden específico. Útil cuando las categorías tienen un orden significativo. | Árboles de Decisión, Regresión, Gradient Boosting Machines (GBM), XGBoost | Supervisado |
+| Binary Encoding | Transforma las categorías en una representación binaria. Reduce la dimensionalidad comparado con One-Hot Encoding. | Random Forest, Árboles de Decisión, Gradient Boosting Machines (GBM), XGBoost | Supervisado |
+| Count Encoding | Asigna a cada categoría el número de veces que aparece en el conjunto de datos. Similar a Frequency Encoding. | Random Forest, Redes Neuronales, Isolation Forest, Gradient Boosting Machines (GBM), XGBoost | Supervisado |
+| Mean Encoding | Similar a Target Encoding, pero puede utilizar otras estadísticas (como la media). | Regresión, Árboles de Decisión, Gradient Boosting Machines (GBM), XGBoost | Supervisado |
+| Embedding Encoding | Utiliza técnicas de aprendizaje profundo para crear representaciones densas de categorías. Común en modelos de redes neuronales. | Redes Neuronales, Modelos de Deep Learning, Recurrent Neural Networks (RNN), Autoencoders | Supervisado |
+
+
